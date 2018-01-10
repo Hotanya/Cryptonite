@@ -4,7 +4,17 @@
              xmlns:local="clr-namespace:Cryptonite"
              x:Class="Cryptonite.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
+    <Entry Placeholder="Enter the cryptocurrency you want to find the rate of e.g. BTC"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center"
+        />
+
+    <Entry Placeholder="What do you want to compare it against? e.g. USD"
+           VerticalOptions="Center" 
+           HorizontalOptions="Center"
+        />
+
+    <Label Text="Welcome to Xamarin.Forms!" 
            VerticalOptions="Center" 
            HorizontalOptions="Center" />
 
